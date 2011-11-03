@@ -1,3 +1,9 @@
+# revision 20851
+# category Package
+# catalog-ctan /macros/generic/ean
+# catalog-date 2007-01-01 18:45:52 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-ean
 Version:	20070101
 Release:	1
@@ -40,6 +46,7 @@ licence, as the macros are.
 %{_texmfdistdir}/tex/generic/ean/ean8.tex
 %doc %{_texmfdistdir}/doc/generic/ean/README
 %doc %{_texmfdistdir}/doc/generic/ean/eantest.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ licence, as the macros are.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
