@@ -47,3 +47,17 @@ licence, as the macros are.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070101-2
++ Revision: 751277
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070101-1
++ Revision: 718290
+- texlive-ean
+- texlive-ean
+- texlive-ean
+- texlive-ean
+
