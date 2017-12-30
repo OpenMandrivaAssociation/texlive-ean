@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-ean
-Version:	20070101
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Macros for making EAN barcodes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/ean
