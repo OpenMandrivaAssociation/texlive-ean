@@ -1,6 +1,6 @@
 Name:		texlive-ean
 Version:	20851
-Release:	1
+Release:	2
 Summary:	Macros for making EAN barcodes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/ean
