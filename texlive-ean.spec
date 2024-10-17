@@ -3,7 +3,7 @@ Version:	20851
 Release:	2
 Summary:	Macros for making EAN barcodes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/generic/ean
+URL:		https://www.ctan.org/tex-archive/macros/generic/ean
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ean.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ean.doc.r%{version}.tar.xz
